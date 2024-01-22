@@ -137,15 +137,12 @@ function dd($array)
     print_r($array);
     echo "</pre>";
 }
-
 function to($url){
     header("location:$url");
 }
 
 
-
 $Bottom=new DB('bottom');
-
 
 
 ?>
